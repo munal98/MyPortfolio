@@ -1,0 +1,197 @@
+﻿<style>
+    /* Resim kapsayıcısına düzenleme */
+    .item-folio__thumb {
+        width: 100%;
+        height: 200px; /* Sabit yükseklik */
+        overflow: hidden; /* Taşma kontrolü */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+        /* Resimlerin boyutlandırılması */
+        .item-folio__thumb img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Alanı doldurur, resim kırpılabilir */
+            display: block; /* Daha uyumlu görünüm */
+        }
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+<section id="works" class="s-works target-section">
+
+    <div class="row narrow section-intro has-bottom-sep">
+        <div class="col-full">
+            <h3>Portfolyo</h3>
+            <h1>Son Projelerime Göz Atabilirsiniz</h1>
+
+            <p class="lead">Üzerinde çalıştığım projeler aşağıda listelenmiştir. Her biri, yazılım geliştirme sürecindeki becerilerimi ve yenilikçi çözümler üretme konusundaki yetkinliğimi yansıtmaktadır..</p>
+        </div>
+    </div>
+
+    <div class="row masonry-wrap">
+        <div class="masonry">
+
+            <div class="masonry__brick">
+                <div class="item-folio">
+
+                    <div class="item-folio__thumb">
+                        <a href="~/hola-master/images/portfolio/gallery/g-beetle.jpg" class="thumb-link" title="The Beetle Car" data-size="1080x800">
+                            <img src="~/hola-master/images/portfolio/beetle.jpg"
+                                 srcset="/hola-master/images/portfolio/beetle.jpg 1x, /hola-master/images/portfolio/beetle@2x.jpg 2x" alt="">
+                            <span class="shadow-overlay"></span>
+                        </a>
+                    </div>
+
+                    <div class="item-folio__text">
+                        <h3 class="item-folio__title">
+                            Otopark Takip Otomasyonu
+                        </h3>
+                        <p class="item-folio__cat">
+                            C# 
+                        </p>
+                    </div>
+
+                    <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                        <i class="im im-link"></i>
+                    </a>
+
+                    <div class="item-folio__caption">
+                        <p>Otopark Takip Otomasyonu, otopark işletmelerinin araç giriş-çıkışlarını, ücretlendirme süreçlerini ve doluluk durumlarını kolayca takip edebilmesi için geliştirilmiş bir yazılım çözümüdür. Bu projede, C# ve Windows Forms kullanılarak kullanıcı dostu bir arayüz tasarlanmıştır.<a href="https://github.com/munal98/OtoparkTakip" target="_blank"><i class="fab fa-github"></i></a></p>
+                    </div>
+
+                </div> <!-- end item-folio -->
+            </div> <!-- end masonry__brick -->
+
+
+
+            <div class="masonry__brick">
+                <div class="item-folio">
+
+                    <div class="item-folio__thumb">
+                        <a href="/hola-master/images/portfolio/gallery/movies.png" class="thumb-link" data-size="1050x700">
+                            <img src="/hola-master/images/portfolio/movies.png"
+                                 srcset="/hola-master/images/portfolio/movies.png 1x, /hola-master/images/portfolio/movies.png 2x" alt="">
+                            <span class="shadow-overlay"></span>
+                        </a>
+                    </div>
+
+                    <div class="item-folio__text">
+                        <h3 class="item-folio__title">
+                            Filmler
+                        </h3>
+                        <p class="item-folio__cat">
+                            C# .NET CORE
+                        </p>
+                    </div>
+
+                    <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                        <i class="im im-link"></i>
+                    </a>
+
+                    <span class="item-folio__caption">
+                        <p>Filmler Uygulaması, kullanıcıların film verilerini görüntüleyip yönetebileceği, modern bir yazılım çözümüdür. Bu proje, C# ve .NET Core teknolojileri kullanılarak geliştirilmiş olup, esnek ve performanslı bir yapı sunmaktadır.<a href="https://github.com/munal98/MoviesMvcCore" target="_blank"><i class="fab fa-github"></i></a></p>
+                    </span>
+
+                </div> <!-- end item-folio -->
+            </div> <!-- end masonry__brick -->
+
+            <div class="masonry__brick">
+                <div class="item-folio">
+
+                    <div class="item-folio__thumb">
+                        <a href="/hola-master/images/portfolio/gallery/urunyonetımı.png" class="thumb-link" data-size="1050x700">
+                            <img src="/hola-master/images/portfolio/urunyonetımı.png"
+                                 srcset="/hola-master/images/portfolio/urunyonetımı.png 1x, /hola-master/images/portfolio/urunyonetımı.png 2x" alt="">
+                            <span class="shadow-overlay"></span>
+                        </a>
+                    </div>
+
+                    <div class="item-folio__text">
+                        <h3 class="item-folio__title">
+                            Ürün Yönetimi Stok Takip
+                        </h3>
+                        <p class="item-folio__cat">
+                            C# .Net Core
+                        </p>
+                    </div>
+
+                    <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                        <i class="im im-link"></i>
+                    </a>
+
+                    <span class="item-folio__caption">
+                        <p>Ürün Yönetimi ve Stok Takip Programı, işletmelerin ürünlerini ve stok durumlarını kolayca yönetebileceği, kullanıcı dostu bir yazılım çözümüdür. C# ve .NET Core teknolojileri ile geliştirilen bu program, işletmelerin stok yönetim süreçlerini daha verimli hale getirmeyi hedefler. <a href="https://github.com/munal98/UrunYonetimiStokTakip" target="_blank"><i class="fab fa-github"></i></a></p>
+                    </span>
+
+                </div> <!-- end item-folio -->
+            </div> <!-- end masonry__brick -->
+
+            <div class="masonry__brick">
+                <div class="item-folio">
+
+                    <div class="item-folio__thumb">
+                        <a href="/hola-master/images/portfolio/gallery/eticaret.png" class="thumb-link" data-size="1050x700">
+                            <img src="/hola-master/images/portfolio/eticaret.png"
+                                 srcset="/hola-master/images/portfolio/eticaret.png 1x, /hola-master/images/portfolio/eticaret.png 2x" alt="">
+                            <span class="shadow-overlay"></span>
+                        </a>
+                    </div>
+
+                    <div class="item-folio__text">
+                        <h3 class="item-folio__title">
+                            E-Ticaret
+                        </h3>
+                        <p class="item-folio__cat">
+                            C# .Net
+                        </p>
+                    </div>
+
+                    <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                        <i class="im im-link"></i>
+                    </a>
+
+                    <span class="item-folio__caption">
+                        <p>E-Ticaret Sitesi, kullanıcıların ürünleri görüntüleyebileceği, sipariş verebileceği ve ödeme işlemlerini gerçekleştirebileceği modern bir çevrimiçi alışveriş platformudur. C# ve .NET teknolojileri kullanılarak geliştirilen bu proje, hem kullanıcı dostu hem de güvenli bir altyapı sunar. <a href="https://github.com/munal98/ETicaretCore" target="_blank"><i class="fab fa-github"></i></a></p>
+                    </span>
+
+                </div> <!-- end item-folio -->
+            </div> <!-- end masonry__brick -->
+
+            <div class="masonry__brick">
+                <div class="item-folio">
+
+                    <div class="item-folio__thumb">
+                        <a href="/hola-master/images/portfolio/gallery/corona.png" class="thumb-link" data-size="1050x700">
+                            <img src="/hola-master/images/portfolio/corona.png"
+                                 srcset="/hola-master/images/portfolio/corona.png 1x, /hola-master/images/portfolio/corona.png 2x" alt="">
+                            <span class="shadow-overlay"></span>
+                        </a>
+                    </div>
+
+                    <div class="item-folio__text">
+                        <h3 class="item-folio__title">
+                            Corona Tespit
+                        </h3>
+                        <p class="item-folio__cat">
+                            C# .Net
+                        </p>
+                    </div>
+
+                    <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                        <i class="im im-link"></i>
+                    </a>
+
+                    <span class="item-folio__caption">
+                        <p>Corona Tespit Programı, COVID-19 belirtilerini analiz ederek kullanıcılara ön tanı sağlayan bir yazılım uygulamasıdır. Bu proje, C# ve .NET teknolojileri kullanılarak geliştirilmiş olup, kullanıcı dostu bir arayüz ile hızlı ve güvenilir bir değerlendirme sunmayı hedefler. <a href="https://github.com/munal98/CoronaTespit" target="_blank"><i class="fab fa-github"></i></a></p>
+                    </span>
+
+                </div> <!-- end item-folio -->
+            </div> <!-- end masonry__brick -->
+
+        </div>
+    </div> <!-- end masonry -->
+
+</section>

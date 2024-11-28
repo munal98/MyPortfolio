@@ -1,0 +1,59 @@
+﻿@model List<SocialMedia>
+@{
+    ViewData["Title"] = "Social Media";
+    Layout = "~/Views/Layout/Index.cshtml";
+}
+
+<div class="content">
+    <div class="container-fluid">
+        <h4 class="page-title">Sosyal Medyalar</h4>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title">Sosyal Medya Listesi</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-sub">
+                            Sosyal medyayla ile ilgili işlemleri aşağıdaki panelden yapabilirsiniz.
+                        </div>
+                        <table class="table mt-3">
+                            <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Title</th>
+                                    <th scope="col">Url</th>
+                                    <th scope="col">Güncelle</th>
+                                    <th scope="col">Sil</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>@item.SocialMediaId</td>
+                                        <td>@item.Title</td>
+                                        <td>@item.Url</td>
+                                        <td>
+                                            <a href="/SocialMedias/Delete/@item.SocialMediaId" class="btn btn-danger">Güncelle</a>
+                                        </td>
+                                        <td>
+                                            <a href="/SocialMedias/Update/@item.SocialMediaId" class="btn btn-success">Sil</a>
+                                        </td>
+                                    </tr>
+                                }
+                                @* Eğer liste boşsa kullanıcıyı bilgilendirebilirsiniz *@
+                                @if (!Model.Any())
+                                {
+                                    <tr>
+                                        <td colspan="6">Gösterilecek sosyal medya bulunamadı.</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

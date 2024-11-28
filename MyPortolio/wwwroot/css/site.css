@@ -1,0 +1,41 @@
+/* Mevcut CSS */
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+/* Resim kapsayýcýsýna düzenleme */
+.item-folio__thumb {
+    width: 100%;
+    height: 200px; /* Tüm resim kapsayýcýlarý ayný yükseklikte */
+    overflow: hidden; /* Taþan alanlarý gizler */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    /* Resimlerin boyutlandýrýlmasý */
+    .item-folio__thumb img {
+        width: 100%; /* Yatay olarak kapsayýcýyý doldur */
+        height: 100%; /* Dikey olarak kapsayýcýyý doldur */
+        object-fit: cover; /* Resmi kýrparak, alaný eþit þekilde doldur */
+        display: block; /* Tarayýcý uyumluluðu için */
+    }

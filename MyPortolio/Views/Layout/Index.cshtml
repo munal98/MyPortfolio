@@ -1,0 +1,37 @@
+﻿@{
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html>
+@await Component.InvokeAsync("LayoutHeadComponentPartial")
+
+<body>
+    <div class="wrapper">
+        @await Component.InvokeAsync("LayoutNavbarComponentPartial")
+        @await Component.InvokeAsync("LayoutSidebarComponentPartial")
+
+        <div class="main-panel">
+            @RenderBody()
+            <footer class="footer">
+                <div class="container-fluid">
+                    <nav class="pull-left">
+                        <ul class="nav">
+                            
+                        </ul>
+                    </nav>
+                    <div class="copyright ml-auto">
+                        C# ASP.NET MVC CORE 8.0 ile yapılmıştır.</i></a>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+        </div>
+    </div>
+</body>
+@await Component.InvokeAsync("LayoutScriptComponentPartial")
+
+
+</html>
