@@ -12,11 +12,13 @@
 
 -Hakkımda
 
--Eğitim Hayatım
-
 -Deneyimlerim
 
 -Projelerim
+
+-Yeteneklerim
+
+-Referanslarım
 
 -İletişim Bilgilerim
 
