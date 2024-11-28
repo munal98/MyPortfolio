@@ -40,7 +40,7 @@ Mesajlar okunma durumlarına göre ayrıldı (okundu/okunmadı).
 
 ## Kullanılan Teknolojiler ve Araçlar
 
-💕 Programlama Dilleri:
+💻 Programlama Dilleri:
 
 C#
 
