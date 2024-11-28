@@ -70,6 +70,14 @@ Microsoft SQL Server
 
 ![Projelerim](https://github.com/user-attachments/assets/ee4c46e4-e6ac-4167-a227-cdbcdebd7444)
 
+![corona](https://github.com/user-attachments/assets/4b261cb3-0f90-4346-8eae-d37db56ab14a)
+
+![Filmler](https://github.com/user-attachments/assets/35d87410-c26b-42ea-bd80-0d4a945d7207)
+
+![Urunyönetimi](https://github.com/user-attachments/assets/9364f871-805f-494b-9a67-f0357f0c3fcc)
+
+![Eticaret](https://github.com/user-attachments/assets/d19673a3-5da9-4211-919c-1153398577e0)
+
 ![Referanslarım](https://github.com/user-attachments/assets/4156fb14-b116-4c87-ae73-a45b41d8f79d)
 
 ![iletişim](https://github.com/user-attachments/assets/c9ad9f1d-92a2-449a-8e4c-4c440f489e1a)
